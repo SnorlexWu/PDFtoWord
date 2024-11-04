@@ -21,7 +21,11 @@ def convert_pdf_to_word(input_path,output_path):
             except Exception as e: #error handling
                 print(f"Failed to convert {pdf_path}")
 
+def testing():
+    print("Hi testing")
+
 if __name__ == "__main__":
     input_path = "C:\\Users\\Alex Wu\\Documents\\Python Scripts\\PDF to Word Converter\\Input"
     output_path = "C:\\Users\\Alex Wu\\Documents\\Python Scripts\\PDF to Word Converter\\Output"
     convert_pdf_to_word(input_path, output_path)
+
